@@ -1,2 +1,2 @@
-# code-eats-backend
+# code-bytes-backend
 backend for a foodie application

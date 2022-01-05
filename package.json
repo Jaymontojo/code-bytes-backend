@@ -1,0 +1,28 @@
+{
+  "name": "code-bytes-backend",
+  "version": "1.0.0",
+  "description": "RESTful backend service for code-bytes application. Built by Jay Montojo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaymontojo/code-bytes-backend.git"
+  },
+  "author": "Jay Montojo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaymontojo/code-bytes-backend/issues"
+  },
+  "homepage": "https://github.com/Jaymontojo/code-bytes-backend#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "standard-version": "^9.3.2"
+  }
+}

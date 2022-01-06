@@ -3,7 +3,7 @@ require('dotenv').config()
 const db = knex({
   client: "pg",
   connection:
-    process.env.DB_URL ||
+    process.env.DATABASE_URL ||
     process.env.DB_URL_LOCAL,
   searchPath: "public",
   migrations: {

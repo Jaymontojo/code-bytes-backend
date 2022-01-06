@@ -1,7 +1,7 @@
 
 exports.up = function(knex) {
   return knex.schema.createTable('locations', (table) => {
-    table.increments('id')
+    table.increments('id');
     table.string('name').notNullable()
     table.string('location_address').notNullable()
     table.float('lat_coordinate').notNullable()

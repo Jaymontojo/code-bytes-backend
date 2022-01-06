@@ -8,7 +8,8 @@
     "release": "standard-version",
     "dev": "nodemon index.js",
     "make:migration": "knex migrate:make",
-    "migrate": "knex migrate:latest"
+    "migrate": "knex migrate:latest",
+    "make:seed": "knex seed:make"
   },
   "repository": {
     "type": "git",

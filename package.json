@@ -1,6 +1,6 @@
 {
   "name": "code-bytes-backend",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "RESTful backend service for code-bytes application. Built by Jay Montojo.",
   "main": "index.js",
   "scripts": {

@@ -4,6 +4,7 @@
   "description": "RESTful backend service for code-bytes application. Built by Jay Montojo.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version",
     "dev": "nodemon index.js",
